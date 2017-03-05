@@ -1,0 +1,41 @@
+//Capitulo 3.12
+package Exercicio6;
+
+public class ParaSaberMais {
+	public static void main(String[] args){
+		/*Questão 1
+		R: O laço do...while, sempre executa o código do laço pelo menos uma vez, 
+		independente da condição do while ser true ou false. Sempre inicia o laço.
+		
+		A estrutura switch verifica uma variável e age de acordo com seus cases. 
+		Os cases são as possibilidades de resultados que são obtidos por switch.
+		Basicamente, o switch serve para controlar várias ações diferentes de acordo com
+ 		o case definido dentro dele.
+		
+		Questão 2
+		R:São loops com um label, para que possam ser identificados, seria como 
+		dar nome a um loop, é usado principalmente em loops aninhados para que você possa
+		usar um break, continue, etc, dentro de um loop interno e afetar um loop externo.
+		
+		Questão 3
+		R: Ocorre um erro ("/ by zero").
+		int conta = 10/0;
+		System.out.println(conta);
+		
+		Retorna uma saída (Infinity).
+		double conta = 10/0.0;
+		System.out.println(conta);
+		
+		Questão 4
+		R:long x = 15000;
+		  int y = int(x); --> casting
+		
+		Questão 5
+		int i = 5;
+		i += 1; --> i soma o valor antigo com o novo e o atribui.
+		
+		int i = 5;
+		i += 1; --> i subtrai o valor antigo com o novo e o atribui.
+		R:*/
+	}
+}
