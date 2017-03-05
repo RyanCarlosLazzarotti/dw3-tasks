@@ -1,0 +1,12 @@
+public class Exercicio {
+	public static void main(String[] args){
+		//Utilizacao de PA.
+		int resultado = 0;
+		int ultimoValor;
+		for (int x = 0; x <= 1000; x++) {
+			ultimoValor = resultado;
+			resultado += x;
+			System.out.printf("Resultado(%d) = %d + %d\n", resultado, ultimoValor, x);
+		}
+	}
+}
